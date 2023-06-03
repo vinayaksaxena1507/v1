@@ -91,26 +91,30 @@ const Project = () => {
           <div className='project__left1'>
             <h3 className='project__headingTertiary'>Featured Project</h3>
             <a
-              href='javascript:void(0)'
+              href='https://my-blog-space-ten.vercel.app/'
               target='_blank'
               rel='noreferrer'
               className='project__headingSecondary'
             >
-              <h2>YelpCamp Campgrounds</h2>
+              <h2>My Blog Space</h2>
             </a>
             <div className='project__descriptionContainer project__descriptionContainer1'>
               <p className='project__description'>
-                A camping sites web app project that enables you to add, update,
-                and delete campgrounds as well as view campgrounds added by
-                other users and receive comments and ratings from other users.{' '}
+                My Blog Space is a Next.js 13-based blogging website that
+                utilizes React, Tailwind CSS, and TypeScript for a seamless user
+                experience. It leverages Sanity v3 CMS to securely store
+                user-generated blogs, providing a reliable and scalable solution
+                for content management.
+                {' '}
               </p>
               <div className='project__tags'>
-                React.js &nbsp; Express.js &nbsp; Node.js &nbsp; MongoDB &nbsp;
-                Cloudinary &nbsp; ejs{' '}
+                Next.js &nbsp; React.js &nbsp; TypeScript &nbsp; Tailwind CSS
+                &nbsp; Sanity CMS &nbsp;
+                {' '}
               </div>
               <div className='project__icons project__icons1'>
                 <a
-                  href='javascript:void(0)'
+                  href='https://github.com/vinayaksaxena1507/My-Blog-Space'
                   target='_blank'
                   rel='noreferrer'
                   style={{ marginRight: '1.6rem' }}
@@ -119,7 +123,11 @@ const Project = () => {
                     <use href='icons/symbol-defs.svg#icon-github' />
                   </svg>
                 </a>
-                <a href='javascript:void(0)' target='_blank' rel='noreferrer'>
+                <a
+                  href='https://my-blog-space-ten.vercel.app/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <svg className='project__icon'>
                     <use href='icons/symbol-defs.svg#icon-external-link' />
                   </svg>
@@ -130,8 +138,8 @@ const Project = () => {
           <div className='project__right'>
             <img
               className='project__img'
-              src='https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667984/Portfolio/project2_dazq0o.png'
-              alt='yelpcap campgrounds'
+              src='https://res.cloudinary.com/df2jdgipx/image/upload/v1685821827/Screenshot_2023-06-04_011843_t525pc.png'
+              alt='my blog space'
             />
           </div>
         </section>
@@ -147,12 +155,7 @@ const Project = () => {
           </div>
           <div className='project__right'>
             <h3 className='project__headingTertiary'>Featured Project</h3>
-            <a
-              href='javascript:void(0)'
-              target='_blank'
-              rel='noreferrer'
-              className='project__headingSecondary'
-            >
+            <a href='javascript:void(0)' target='_blank' rel='noreferrer' className='project__headingSecondary' >
               <h2>Online Grocery store</h2>
             </a>
             <div className='project__descriptionContainer'>
@@ -202,7 +205,7 @@ const Project = () => {
               </svg>
               <div className='projectResp__cardLink'>
                 <a
-                  href='javascript:void(0)'
+                  href='https://github.com/vinayaksaxena1507/MovieFlix'
                   target='_blank'
                   rel='noreferrer'
                   style={{ marginRight: '1.6rem' }}
@@ -211,7 +214,11 @@ const Project = () => {
                     <use href='icons/symbol-defs.svg#icon-github' />
                   </svg>
                 </a>
-                <a href='javascript:void(0)' target='_blank' rel='noreferrer'>
+                <a
+                  href='https://movieflixe.netlify.app/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <svg className='projectResp__icon'>
                     <use href='icons/symbol-defs.svg#icon-external-link' />
                   </svg>
@@ -219,19 +226,20 @@ const Project = () => {
               </div>
             </div>
             <div className='projectResp__cardBody'>
-              <div className='projectResp__cardBodyHeading'>Colors.co</div>
+              <div className='projectResp__cardBodyHeading'>Movieflix</div>
               <p className='projectResp__cardBodyDescription'>
-                Coolors is the essential tool for creating and collecting color
-                palettes. It allows you to generate perfect matching colors in
-                seconds. Even if you are not so skilled in design!. You may use
-                a variety of color spaces, including RGB, CMYK, LAB etc.
-              </p>{' '}
+                Movieflix is an advanced A.I. Movie Recommendation System using
+                React.js, Redux, Material UI, and Alan AI. It offers
+                personalized movie suggestions, secure authentication, and voice
+                functionality. It retrieves real-time data through API calls for
+                up-to-date movie information.
+              </p>
+              {' '}
             </div>
             <div className='projectResp__cardFooter'>
               <div className='projectResp__tags'>
                 {' '}
-                Next.js &nbsp; React.js &nbsp; Node.js &nbsp; MongoDB &nbsp;
-                Express.js &nbsp; SCSS/SASS
+                React.js &nbsp; Redux &nbsp; Material UI &nbsp; Alan AI &nbsp;
               </div>
             </div>
           </div>
@@ -244,7 +252,7 @@ const Project = () => {
               </svg>
               <div className='projectResp__cardLink'>
                 <a
-                  href='javascript:void(0)'
+                  href='https://github.com/vinayaksaxena1507/My-Blog-Space'
                   target='_blank'
                   rel='noreferrer'
                   style={{ marginRight: '1.6rem' }}
@@ -253,7 +261,11 @@ const Project = () => {
                     <use href='icons/symbol-defs.svg#icon-github' />
                   </svg>
                 </a>
-                <a href='javascript:void(0)' target='_blank' rel='noreferrer'>
+                <a
+                  href='https://my-blog-space-ten.vercel.app/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <svg className='projectResp__icon'>
                     <use href='icons/symbol-defs.svg#icon-external-link' />
                   </svg>
@@ -261,20 +273,20 @@ const Project = () => {
               </div>
             </div>
             <div className='projectResp__cardBody'>
-              <div className='projectResp__cardBodyHeading'>
-                YelpCamp Campgrounds
-              </div>
+              <div className='projectResp__cardBodyHeading'>My Blog Space</div>
               <p className='projectResp__cardBodyDescription'>
-                A camping sites web app project that enables you to add, update,
-                and delete campgrounds as well as view campgrounds added by
-                other users and receive comments and ratings from other users.
+                My Blog Space is a Next.js 13-based blogging website that
+                utilizes React, Tailwind CSS, and TypeScript for a seamless user
+                experience. It leverages Sanity v3 CMS to securely store
+                user-generated blogs, providing a reliable and scalable solution
+                for content management.
               </p>
             </div>
             <div className='projectResp__cardFooter'>
               <div className='projectResp__tags'>
                 {' '}
-                React.js &nbsp; Express.js &nbsp; Node.js &nbsp; MongoDB &nbsp;
-                Cloudinary &nbsp; ejs
+                Next.js &nbsp; React.js &nbsp; TypeScript &nbsp; Tailwind CSS
+                &nbsp; Sanity CMS &nbsp;
               </div>
             </div>
           </div>
