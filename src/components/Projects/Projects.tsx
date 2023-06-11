@@ -149,32 +149,40 @@ const Project = () => {
           <div className='project__left'>
             <img
               className='project__img'
-              src='https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667991/Portfolio/project3_rw9d06.jpg'
+              src='https://res.cloudinary.com/df2jdgipx/image/upload/v1686498614/Screenshot_2023-06-11_202536_xs89bu.png'
               alt='online grocery store'
             />
           </div>
           <div className='project__right'>
             <h3 className='project__headingTertiary'>Featured Project</h3>
-            <a href='javascript:void(0)' target='_blank' rel='noreferrer' className='project__headingSecondary' >
-              <h2>Online Grocery store</h2>
+            <a
+              href='https://ai-weather-app-rceg.vercel.app/'
+              target='_blank'
+              rel='noreferrer'
+              className='project__headingSecondary'
+            >
+              <h2>AI Weather App</h2>
             </a>
             <div className='project__descriptionContainer'>
               <p className='project__description'>
-                The project entailed creating an ecommerce website with everyday
-                necessities and food as its products.
+                Weather app that leverages a powerful combination of
+                technologies. The app provides real-time weather information and
+                a user-friendly interface.
                 <br />
                 <br />
-                An Django application with email based authentication and uses
-                cookies - sessions
+                Users can easily access accurate weather forecasts, interact
+                with a conversational AI assistant powered by ChatGPT, and enjoy
+                a seamless experience with the help of modern design elements
+                and performance optimizations.
               </p>
               <div className='project__tags'>
                 {' '}
-                Python &nbsp; Django &nbsp; Bootstrap &nbsp; HTML/CSS &nbsp;
-                javascript
+                Next.js &nbsp; React.js &nbsp; Tremor 2.0 &nbsp; Stepzen &nbsp;
+                GraphQL
               </div>
               <div className='project__icons'>
                 <a
-                  href='javascript:void(0)'
+                  href='https://github.com/vinayaksaxena1507/AI-Weather-App'
                   target='_blank'
                   rel='noreferrer'
                   style={{ marginRight: '1.6rem' }}
@@ -183,7 +191,11 @@ const Project = () => {
                     <use href='icons/symbol-defs.svg#icon-github' />
                   </svg>
                 </a>
-                <a href='javascript:void(0)' target='_blank' rel='noreferrer'>
+                <a
+                  href='https://ai-weather-app-rceg.vercel.app/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <svg className='project__icon'>
                     <use href='icons/symbol-defs.svg#icon-external-link' />
                   </svg>
@@ -299,7 +311,7 @@ const Project = () => {
               </svg>
               <div className='projectResp__cardLink'>
                 <a
-                  href='javascript:void(0)'
+                  href='https://github.com/vinayaksaxena1507/AI-Weather-App'
                   target='_blank'
                   rel='noreferrer'
                   style={{ marginRight: '1.6rem' }}
@@ -308,31 +320,30 @@ const Project = () => {
                     <use href='icons/symbol-defs.svg#icon-github' />
                   </svg>
                 </a>
-                <a href='javascript:void(0)' target='_blank' rel='noreferrer'>
+                <a
+                  href='https://ai-weather-app-rceg.vercel.app/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <svg className='projectResp__icon'>
-                    <use href='icons/symbol-defs.svg#icon-codepen' />
+                    <use href='icons/symbol-defs.svg#icon-external-link' />
                   </svg>
                 </a>
               </div>
             </div>
             <div className='projectResp__cardBody'>
-              <div className='projectResp__cardBodyHeading'>
-                Online Grocery store
-              </div>
+              <div className='projectResp__cardBodyHeading'>AI Weather App</div>
               <p className='projectResp__cardBodyDescription'>
-                The project entailed creating an ecommerce website with everyday
-                necessities and food as its products.
-                <br />
-                <br />
-                An Django application with email based authentication and uses
-                cookies - sessions
+                Weather app that leverages a powerful combination of
+                technologies. The app provides real-time weather information and
+                a user-friendly interface.
               </p>
             </div>
             <div className='projectResp__cardFooter'>
               <div className='projectResp__tags'>
                 {' '}
-                Python &nbsp; Django &nbsp; Bootstrap &nbsp; HTML/CSS &nbsp;
-                javascript
+                Next.js &nbsp; React.js &nbsp; Tremor 2.0 &nbsp; Stepzen &nbsp;
+                GraphQL
               </div>
             </div>
           </div>
