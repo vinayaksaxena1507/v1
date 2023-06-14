@@ -25,17 +25,30 @@ const Experience: React.FC = () => {
     }, 4000);
   });
   const experiences: Experience[] = [
+    // {
+    //   name: 'Juspay',
+    //   role: 'Full Stack Developer',
+    //   url: 'https://juspay.in/',
+    //   start: 'January 2022',
+    //   end: 'September 2022',
+    //   shortDescription: [
+    //     "Throughout my work, I've utilized various technologies, including PureScript, Haskell, Java, and Android Development, among others.",
+    //     'Resolved major bugs,resulting in an increase in performance accuracy of 14.2%.',
+    //     "I've also managed a small team that includes Frontend Developers and Backend Developers. And, Implements features like floating Widget, customer support, Add Address Flow, etc.",
+    //     "Additionally, I've gained an understanding of the agile methodology for software development and automated testing.",
+    //   ],
+    // },
     {
-      name: 'Juspay',
+      name: 'Freelaner',
       role: 'Full Stack Developer',
-      url: 'https://juspay.in/',
-      start: 'January 2022',
-      end: 'September 2022',
+      url: '',
+      start: 'September 2022',
+      end: 'Present',
       shortDescription: [
-        "Throughout my work, I've utilized various technologies, including PureScript, Haskell, Java, and Android Development, among others.",
-        'Resolved major bugs,resulting in an increase in performance accuracy of 14.2%.',
-        "I've also managed a small team that includes Frontend Developers and Backend Developers. And, Implements features like floating Widget, customer support, Add Address Flow, etc.",
-        "Additionally, I've gained an understanding of the agile methodology for software development and automated testing.",
+        'Developed custom WordPress themes and plugins, utilizing PHP and MySQL, resulting in enhanced website functionality and user experience for diverse clients.',
+        'Leveraged React and Next.js to build interactive web applications, delivering visually appealing user interfaces and seamless experiences across platforms.',
+        'Implemented MongoDB to develop scalable and performant databases, enabling efficient data management and real-time data processing for data-intensive projects.',
+        'Collaborated closely with clients to understand project objectives, provide technical expertise, and deliver high-quality solutions within agreed-upon timelines, earning positive feedback and repeat business.',
       ],
     },
     {
