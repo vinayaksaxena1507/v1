@@ -46,7 +46,7 @@ const About = () => {
           I recently earned a Bachelor of Science in Computer
           Science and Engineering (2018-2022) with a stellar
           {' '}
-          <span className='about__link'>8.26 GPA aggregate</span>
+          <span className='about__link'>8.64 GPA aggregate</span>
           .
           <br />
           <br />
