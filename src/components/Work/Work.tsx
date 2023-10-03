@@ -25,19 +25,6 @@ const Experience: React.FC = () => {
     }, 4000);
   });
   const experiences: Experience[] = [
-    // {
-    //   name: 'Juspay',
-    //   role: 'Full Stack Developer',
-    //   url: 'https://juspay.in/',
-    //   start: 'January 2022',
-    //   end: 'September 2022',
-    //   shortDescription: [
-    //     "Throughout my work, I've utilized various technologies, including PureScript, Haskell, Java, and Android Development, among others.",
-    //     'Resolved major bugs,resulting in an increase in performance accuracy of 14.2%.',
-    //     "I've also managed a small team that includes Frontend Developers and Backend Developers. And, Implements features like floating Widget, customer support, Add Address Flow, etc.",
-    //     "Additionally, I've gained an understanding of the agile methodology for software development and automated testing.",
-    //   ],
-    // },
     {
       name: 'Spootnikz Media',
       role: 'Full Stack Developer',
@@ -52,27 +39,28 @@ const Experience: React.FC = () => {
       ],
     },
     {
+      name: 'Juspay',
+      role: 'Technical Product Analyst',
+      url: 'https://juspay.in/',
+      start: 'January 2022',
+      end: 'September 2022',
+      shortDescription: [
+        "Throughout my work, I've utilized various technologies, including PureScript, Haskell, Java, and Android Development, among others.",
+        'Resolved major bugs,resulting in an increase in performance accuracy of 14.2%.',
+        "I've also managed a small team that includes Frontend Developers and Backend Developers. And, Implements features like floating Widget, customer support, Add Address Flow, etc.",
+        "Additionally, I've gained an understanding of the agile methodology for software development and automated testing.",
+      ],
+    },
+    {
       name: 'Geeks For Geeks',
-      role: 'Content Creator',
+      role: 'Software Development Engineer Intern',
       url: 'https://www.geeksforgeeks.org/',
       start: 'February 2021',
       end: 'July 2021',
       shortDescription: [
-        'Worked with the Practice team and was in the position of leading the complete Practice portal along with a variety of courses offered underthe direction of GeeksforGeeks.',
-        'worked on the creation of the courses page and its design adaptability.',
-        'Learned about integrating payment APIs.',
-      ],
-    },
-    {
-      name: 'Flakky.com',
-      role: 'Full Stack Developer ( Freelance )',
-      url: 'https://www.linkedin.com/company/flakky-merchandise/',
-      start: 'January 2019',
-      end: 'June 2020',
-      shortDescription: [
-        'Interaction and visual experience design were developed for enhanced user experience.',
-        'Mastered the skills of time management, communication skill, and collaborative teamwork.',
-        'Overall, it was a rewarding experience that allowed me to develop my leadership skills while contributing positively to the growth of the organization.',
+        'Developed user-friendly UI components for the Doubt Support Service, enhancing user query resolution.',
+        'Improved user query resolution and streamlined operations with dynamic dashboards using Next.js.',
+        'Gained proficiency in Django and Python for backend development.',
       ],
     },
   ];
