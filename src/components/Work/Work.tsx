@@ -39,7 +39,7 @@ const Experience: React.FC = () => {
     //   ],
     // },
     {
-      name: 'Freelaner',
+      name: 'Spootnikz Media',
       role: 'Full Stack Developer',
       url: '',
       start: 'September 2022',
