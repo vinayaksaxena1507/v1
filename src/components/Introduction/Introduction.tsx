@@ -18,6 +18,9 @@ const Introduction = () => {
     <div className='intro '>
       <div className='intro__left'>
         <span className='sectiontag'>&lt;section&gt;</span>
+        <h2 className='intro__headingSecondary'>
+          Full Stack Developer / Software Engineer
+        </h2>
         <h1 className='intro__headingPrimary'>
           <span className={letterClass}>H</span>
           <span className={`${letterClass} _12`}>i,</span>
